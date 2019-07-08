@@ -1,0 +1,43 @@
+<!-- 
+inherit from body green color to heading font.
+if specify class to heading and give class font color that will be applied
+closest style is used from element
+
+also depends on order of class.
+
+if you specify id than id will be taken from class or inherited style
+id are more specific
+
+inline style is more specific
+-->
+<!DOCTYPE html>
+
+<html> 
+<head> 
+    
+    
+    <style>
+     body {
+         background-color: black;
+         color: green;
+         font-family: monospace;
+     }
+     #orange-text{
+         color:orange
+     }
+     .pink-text{
+         color:pink;
+     }
+     .blue-text{
+         color:blue;
+     }
+
+    </style>
+    <title>GeeksforGeeks</title> 
+</head> 
+<body> 
+    <h1 class="pink-text blue-text" id="orange-text" style="color: white">Hello World</h1>
+        
+        
+</body> 
+</html> 

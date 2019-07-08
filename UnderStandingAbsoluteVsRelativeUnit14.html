@@ -1,0 +1,66 @@
+<!-- 
+ margin using px is absolute ie physical unit of length like mm,cm
+Now  em and rem are relative
+em: size of element of font size
+rem:
+
+-->
+<!DOCTYPE html>
+
+<html> 
+<head> 
+        
+    
+    
+    <title>GeeksforGeeks</title> 
+</head> 
+<body> 
+        
+        <style> 
+            .injected-text{
+                margin-bottom: -25px;
+                text-align: center;
+            }
+            .box{
+                border-style: solid;
+                border-color: black;
+                border-width: 5px;
+                text-align: center;
+            }
+            .yellow-box{
+                background-color: yellow;
+                padding: 20px 40px 20px 40px;
+            }
+            .red-box{
+                background-color: red;
+                color: white;
+                margin: 20px 40px 20px 40px; 
+                padding: 2  .5em; 
+            }
+            .blue-box{
+                background-color: blue;
+                padding: 20px;
+                color: white;
+                margin: 20px 40px 20px 40px; 
+                
+            }
+                
+
+        </style>
+        <div class="box">
+                
+            <div class="yellow-box box">
+                    <p class="injected-text">yellow margin</p>
+                    <div class="red-box box">
+                            <p class="injected-text"> red padding</p>
+                    </div>
+                    <div class="blue-box box">
+                            <p class="injected-text"> blue padding</p>
+                    </div>
+
+            </div>
+            
+        </div>
+     
+</body> 
+</html> 
