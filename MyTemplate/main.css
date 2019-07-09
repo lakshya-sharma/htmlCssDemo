@@ -12,23 +12,40 @@ body {
 }
 
 #sidebar {
-    background-color: grey;
+    background-color: black;
 	display: inline-block;
 	vertical-align: top;
 	height: 100%;
-    width: 20%;
+    width: 5%;
 	overflow: hidden;
 }
 #sidebar:hover{
     overflow-y:scroll;
 }
-#sidebar-content{
-    position: relative;
+#sidebar ul{   
+    list-style: none;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    
+    
 }
+#sidebar li{
+    
+    font-size: 20px;  
+}
+#sidebar i{
+    margin: 10px 0;
+    height: 40px;
+    border-bottom: 1px solid grey;
+    font-size: 20px;  
+    color: grey;
+}
+
 #profile-show{
     width: 100%;
     background-color: black;
-    height: 150px;
+    height: 70px;
     position: sticky;
     top:0;
 }
@@ -36,20 +53,17 @@ body {
 
 
 #content {
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.548);
 	display: inline-block;
 	vertical-align: top;
 	height: 100%;
-	width: 80%;
+	width: 95%;
 	overflow: hidden;
 }
 #content:hover{
     overflow-y:scroll;
 }
 
-li{
-    font-size: 20px;
-}
 
 
 
@@ -63,23 +77,23 @@ li{
   
 ::-webkit-scrollbar-track
 {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 2px rgba(0,0,0,0.3);
 	border-radius: 5px;
 	background-color: #F5F5F5;
 }
 
 ::-webkit-scrollbar
 {
-	width: 7px;
+	width: 2px;
 	background-color: #F5F5F5;
 }
 
 ::-webkit-scrollbar-thumb
 {
-	border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,.3);
+    box-shadow: inset 0 0 2px rgba(0,0,0,.3);
 	background-color: #555;
 }
 
