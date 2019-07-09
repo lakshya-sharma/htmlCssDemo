@@ -16,20 +16,31 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	height: 100%;
-    width: 18%;
-    position: relative;
+    width: 20%;
 	overflow: hidden;
 }
 #sidebar:hover{
     overflow-y:scroll;
 }
+#sidebar-content{
+    position: relative;
+}
+#profile-show{
+    width: 100%;
+    background-color: black;
+    height: 150px;
+    position: sticky;
+    top:0;
+}
+
+
 
 #content {
     background-color: lightgrey;
 	display: inline-block;
 	vertical-align: top;
 	height: 100%;
-	width: 82%;
+	width: 80%;
 	overflow: hidden;
 }
 #content:hover{
